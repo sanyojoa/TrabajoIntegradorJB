@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h4{
+    color: white;
+}
+header{
+    background-color: #35363A;
+    
+}
+
+.nav-link p b{
+    color: green;
+}
+.nav-link p b:hover{
+    color: rgb(1, 173, 1);
+}
+.nav-link{
+    color: gray;
+    margin: 3px;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.imgCodo{
+    width: 125px;
+    margin-left: 35px;
+    transform: translateY(-5px);
+}
+.navbar-brand{
+    transform: translateY(-7px); 
+}
+.navbar-nav{
+    margin-left: 35px ;
+}
