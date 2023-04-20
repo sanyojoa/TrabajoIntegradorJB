@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-
-h4{
+/* HEADER - NAVBAR */ 
+.navbar-brand h4{
     color: white;
 }
 header{
@@ -40,7 +40,7 @@ header{
     margin-left: 35px ;
 }
 
-/* MAIN */
+/* MAIN - CAROUSEL */
 .carousel-inner div img{
     filter: brightness(50%);
 }
@@ -61,14 +61,48 @@ header{
     margin-bottom: 400px;  
 }
 
-.btn-secondary{
+.carousel-caption .btn-secondary{
     margin: 10px;
     background: rgb(1, 173, 1);
 }
-.btn-secondary:hover{
+.carousel-caption .btn-secondary:hover{
     background-color: green;
 }
 .btn-outline-secondary{
     color: white;
     border-color: whitesmoke;
+}
+
+
+/* MAIN - ORADORES */
+
+.oradores{
+    margin-top: 10px;
+    text-align: center;
+}
+.oradores span{
+    font-size: 14px;
+}
+
+.card{
+    display: inline-table;
+    margin: 10px;
+    text-align: left;
+}
+.card-text{
+    font-size: 13px;
+    color: rgb(48, 45, 45);
+}
+
+.card-body button{
+    padding: 0;
+    margin: 0;
+    width: 70px;
+    height: 18px;
+    font-size: 12px;
+}
+.card-body .btn-info{
+ margin: 0;
+ width: 50px;
+ color: white;
 }
