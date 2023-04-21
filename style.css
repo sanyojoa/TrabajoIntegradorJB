@@ -160,7 +160,9 @@ header{
 .d-grid button{
     transform: translateX(15px);
     background: rgb(1, 173, 1);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+    
 }
 
 .row input:focus{
@@ -170,3 +172,30 @@ header{
 .row textarea:focus{
     box-shadow: 0 0 5px rgb(1, 173, 1);
 }
+
+/* FOOTER */
+footer{
+    background: #35363A;
+}
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: start;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.pie-pagina .nav-link{
+    font-size: 15px;
+    max-width: 100px;
+    color: whitesmoke;
+}
+
+.pie-pagina .nav-link:hover{
+    color: grey;
+}
+
+
+
