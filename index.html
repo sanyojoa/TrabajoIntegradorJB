@@ -152,21 +152,23 @@
                 <h3>ORADOR</h3>
                 <span>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar</span>
             </div>
-            <div class="container-fluid">
-                <div class="orador-datos">
-                    <div>
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div>
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                    </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre" style="height: 30px;">
                 </div>
-                <div class="orador-textarea">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Recuerda incluir un título para tu charla</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido" style="height: 30px;">
                 </div>
-            </div>
+                <div class="col-12">
+                  <textarea type="text" class="form-control" id="inputAddress" placeholder="Sobre qué quieres hablar?" rows="4"></textarea>
+                  <p>Recuerda incluir un título para tu charla</p>
+                </div>
+                <div class="col-12">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success" type="button">Enviar</button>
+                      </div>
+                </div>
+              </form>
         </section>
     </main>
 

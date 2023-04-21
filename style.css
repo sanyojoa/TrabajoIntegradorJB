@@ -145,17 +145,28 @@ header{
     margin: 15px;
 }
 
-.orador-textarea{
+.col-12 textarea{
+    transform: translateX(15px) translateY(-10px);
+    font-size: 20px;
     
-    display: inline;
 }
-.orador-textarea textarea{
-    width: 800px;
+.col-12 p{
+    text-align: start;
+    margin-left: 15px;
+    font-size: 12px;
+    color: grey;
 }
 
-.orador-datos{
-    display: flex;
+.d-grid button{
+    transform: translateX(15px);
+    background: rgb(1, 173, 1);
+    margin-bottom: 10px;
 }
-.orador-datos input{
-    width: 400px;
+
+.row input:focus{
+    box-shadow: 0 0 5px rgb(1, 173, 1);
+}
+
+.row textarea:focus{
+    box-shadow: 0 0 5px rgb(1, 173, 1);
 }
