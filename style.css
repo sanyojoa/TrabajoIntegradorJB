@@ -166,11 +166,15 @@ header{
 
 /* MAIN ORADORES-LAYOUT */
 
+.oradores-titulo p{
+    font-size: 13px;
+}
+
 .oradores-layout{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     display: grid;
 }
 
@@ -178,20 +182,29 @@ header{
     margin: 15px;
 }
 
-.col-12 textarea{
-    transform: translateX(15px) translateY(-10px);
+.datos-layout {
+    right: 5%;
+    transform: translateX(-15px);
+}
+
+@media (min-width: 768px){
+.col-md-6 .datos-layout {
+    
+    transform: translateX(-13px);
+}
+}
+
+.col-md-12 textarea{
     font-size: 20px;
     
 }
-.col-12 p{
+.col-md-12 p{
     text-align: start;
-    margin-left: 15px;
     font-size: 12px;
     color: grey;
 }
 
 .d-grid button{
-    transform: translateX(15px);
     background: rgb(1, 173, 1);
     margin-bottom: 15px;
     height: 40px;
