@@ -198,6 +198,7 @@ header{
     font-size: 20px;
     
 }
+
 .col-md-12 p{
     text-align: start;
     font-size: 12px;
@@ -220,28 +221,30 @@ header{
 }
 
 /* FOOTER */
+
+
 footer{
     background: #35363A;
 }
-.pie-pagina{
+.item-footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    text-align: start;
-    height: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align: center;
+    height: 90px;
+    
 }
 
-.pie-pagina .nav-link{
+.item-footer .nav-link{
     font-size: 15px;
-    max-width: 100px;
+    max-width: 150px;
     color: whitesmoke;
 }
 
-.pie-pagina .nav-link:hover{
+.item-footer .nav-link:hover{
     color: grey;
 }
+
 
 
 
