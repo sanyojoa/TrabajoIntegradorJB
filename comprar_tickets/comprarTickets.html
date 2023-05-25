@@ -1,15 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="comparTickets.css">
+    <title>Tickets</title>
 </head>
+
 <body>
-    HOLAAA
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid logo">
+                <a class="navbar-brand" href="#"><img class="img-codo"
+                        src="../src/imagenes_integrador_front/codoacodo.png" alt="Logo de TI JB"></a>
+                <h4>Conf Bs As</h4>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <div class="navbar-nav d-flex justify-content-center aling-items-center">
+                        <a class="nav-link" href="#">La conferencia</a>
+                        <a class="nav-link" href="#">Los oradores</a>
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                        <a class="nav-link" href="#">Conviertete en orador</a>
+                        <a class="nav-link" href="#">
+                            <p>Comprar tickets</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="descuentos">
+
+            <div class="card cartaA" style="width: 13rem;">
+                <div class="card-body ">
+                    <h5 class="card-title">Estudiante</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+                    <h6 class="card-title">80%</h6>
+                    <p class="card-text">* presentar documentación</p>
+                </div>
+            </div>
+
+            <div class="card cartaB" style="width: 13rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Trainee</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+                    <h6 class="card-title">50%</h6>
+                    <p class="card-text">* presentar documentación</p>
+                </div>
+            </div>
+
+            <div class="card cartaC" style="width: 13rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Junior</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+                    <h6 class="card-title">15%</h6>
+                    <p class="card-text">* presentar documentación</p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
 
 
+
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Términos y condiciones</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item item-footer">
+                <a class="nav-link" href="#">Estudiantes</a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <script src="comprarTickets.js"></script>
 </body>
+
 </html>

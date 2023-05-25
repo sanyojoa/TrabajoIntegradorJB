@@ -1,1 +1,1 @@
-alert("Queee")
+console.log("Ahora sii")

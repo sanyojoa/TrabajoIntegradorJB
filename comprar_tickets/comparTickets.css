@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* HEADER - NAVBAR */ 
+
+header{
+    background: #35363A;
+    
+}
+
+.img-codo{
+    width: 125px;
+    transform: translateY(-5px);
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.logo h4{
+    color: white;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.navbar-toggler{
+    border:solid 1px whitesmoke;
+}
+
+@media screen and (max-width: 992px){
+    .logo{
+        align-items: center;
+        justify-content:space-around !important;
+        margin-right: 10%;
+    }
+    .logo h4{
+        display: none;
+    }
+}
+
+.nav-link p{
+    color: green;
+}
+
+.nav-link p:hover{
+    color: rgb(1, 173, 1);
+}
+
+.nav-link{
+    color: gray;
+    margin: 3px;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+
+
+/* MAIN */
+
+/* section - cards */
+
+.descuentos{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.card{
+    display: inline-table;
+    margin: 10px;
+    text-align: left;
+    height: 10rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body h6{
+    margin: 5px;
+}
+
+.card-text{
+    font-size: 13px;
+    color: rgb(48, 45, 45);
+    padding: 5px;
+}
+.card-title{
+    padding: 5px;
+
+}
+
+.cartaA{
+    border: solid 0.3px blue;
+}
+.cartaB{
+    border: solid 0.3px green;
+}
+.cartaC{
+    border: solid 0.3px goldenrod;
+}
+
+.cartaA :hover{
+    background-color: rgb(41, 41, 190);
+    color: whitesmoke;
+}
+
+.cartaB :hover{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.cartaC :hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER*/
+
+footer{
+    background: #35363A;
+}
+.item-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 90px;
+    
+}
+
+.item-footer .nav-link{
+    font-size: 15px;
+    max-width: 150px;
+    color: whitesmoke;
+}
+
+.item-footer .nav-link:hover{
+    color: grey;
+}
