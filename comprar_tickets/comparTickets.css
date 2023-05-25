@@ -68,7 +68,7 @@ header{
 
 /* MAIN */
 
-/* section - cards */
+/* section - descuentos - cards */
 
 .descuentos{
     margin-top: 10px;
@@ -125,16 +125,51 @@ header{
     color: whitesmoke;
 }
 
+/* section comprar - tickets*/
+
+.comprarTickets{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    display: grid;
+    width: 60%;
+}
+
+.comprarTickets input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.comprarTickets select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
+.datos1-ticket{
+    text-align:start;
+}
+.datos1-ticket label{
+    margin-left: 2px;
+}
 
+.totalPagar{
+    text-align: left;
+    padding: 15px;
+    background: rgb(180, 200, 238);
+    margin-top: 20px;
+}
 
+.boton-ticket button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: rgb(1, 173, 1);
+    
 
-
-
-
-
-
+}
 
 
 /* FOOTER*/
