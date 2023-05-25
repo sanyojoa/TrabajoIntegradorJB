@@ -167,8 +167,14 @@ header{
     margin-bottom: 15px;
     width: 100%;
     background: rgb(1, 173, 1);
-    
+}
 
+.row input:focus{
+    box-shadow: 0 0 5px rgb(1, 173, 1);
+}
+
+.row select:focus{
+    box-shadow: 0 0 5px rgb(1, 173, 1);
 }
 
 
