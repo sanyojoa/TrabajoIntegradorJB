@@ -106,7 +106,7 @@
                     <button class="btn btn-success" id="boton-borrar" type="submit">Borrar</button>
                 </div>
                 <div class="col-md-6 boton-ticket">
-                    <button class="btn btn-success boton-resumen" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Resumen</button>
+                    <button class="btn btn-success" id="boton-resumen" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Resumen</button>
                 </div>
             </div>
         </section>
@@ -121,12 +121,12 @@
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">Resumen de compra</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body" id="totales">
                             ...
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="button" class="btn btn-success boton-resumen">Confirmar</button>
+                            <button type="button" class="btn btn-success boton-confirmar" onclick="refrescarPagina();">Confirmar</button>
                         </div>
                     </div>
                 </div>
