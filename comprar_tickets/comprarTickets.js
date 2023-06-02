@@ -23,6 +23,7 @@ categorias.addEventListener('click', ()=>{
 
 botonBorrar.addEventListener('click', ()=>{
     inputs.forEach(input => input.value = '');
+    document.getElementById('total').innerHTML = 'Total a Pagar: $ ';
 });
 
 
