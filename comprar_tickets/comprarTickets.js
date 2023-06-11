@@ -6,33 +6,72 @@ let cartaA = document.getElementById("carta-A");
 let cartaB = document.getElementById("carta-B");
 let cartaC = document.getElementById("carta-C");
 
+
 cartaA.addEventListener('click', ()=>{
     document.getElementById("Categoria").selectedIndex="1";
+    cartaA.style.backgroundColor = 'rgb(41, 41, 190)';
+    cartaA.style.color = 'whitesmoke';
+    cartaB.style.backgroundColor = 'transparent';
+    cartaB.style.color = 'black';
+    cartaC.style.backgroundColor = 'transparent';
+    cartaC.style.color = 'black';
     promocion = 0.2;
 })
 
+
+
 cartaB.addEventListener('click', ()=>{
     document.getElementById("Categoria").selectedIndex="2";
+    cartaB.style.backgroundColor = 'green';
+    cartaB.style.color = 'whitesmoke';
+    cartaA.style.backgroundColor = 'transparent';
+    cartaA.style.color = 'black';
+    cartaC.style.backgroundColor = 'transparent';
+    cartaC.style.color = 'black';
     promocion = 0.5;
 })
 
 cartaC.addEventListener('click', ()=>{
     document.getElementById("Categoria").selectedIndex="3";
+    cartaC.style.backgroundColor = 'goldenrod';
+    cartaC.style.color = 'whitesmoke';
+    cartaA.style.backgroundColor = 'transparent';
+    cartaA.style.color = 'black';
+    cartaB.style.backgroundColor = 'transparent';
+    cartaB.style.color = 'black';
     promocion = 0.85;
 })
 
 categorias.addEventListener('click', ()=>{
     valorCategorias = categorias.value;
     if(valorCategorias == 1){
+        cartaA.style.backgroundColor = 'rgb(41, 41, 190)';
+        cartaA.style.color = 'whitesmoke';
+        cartaB.style.backgroundColor = 'transparent';
+        cartaB.style.color = 'black';
+        cartaC.style.backgroundColor = 'transparent';
+        cartaC.style.color = 'black';
         promocion = 0.2;
     }
     if(valorCategorias == 0){
         promocion = 1;
     }
     if(valorCategorias == 2){
+        cartaB.style.backgroundColor = 'green';
+        cartaB.style.color = 'whitesmoke';
+        cartaA.style.backgroundColor = 'transparent';
+        cartaA.style.color = 'black';
+        cartaC.style.backgroundColor = 'transparent';
+        cartaC.style.color = 'black';
         promocion = 0.5;
     }
     if(valorCategorias == 3){
+        cartaC.style.backgroundColor = 'goldenrod';
+        cartaC.style.color = 'whitesmoke';
+        cartaA.style.backgroundColor = 'transparent';
+        cartaA.style.color = 'black';
+        cartaB.style.backgroundColor = 'transparent';
+        cartaB.style.color = 'black';
         promocion = 0.85;
     }
 })
